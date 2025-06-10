@@ -12,23 +12,31 @@
 
 ### Google Colab で即座に実行
 
-**最も簡単な方法** - 下記 URL をクリックするだけで、ブラウザで実行できます：
+**🎯 シンプルデモ（推奨）** - 最も簡単な 1 つのアウトプット：
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Uttchii/learned-image-compression/blob/main/simple_compression_demo.ipynb)
+
+**🔬 詳細デモ** - 完全な比較・分析版：
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Uttchii/learned-image-compression/blob/main/compressai_test.ipynb)
 
-**直接 URL**: https://colab.research.google.com/github/Uttchii/learned-image-compression/blob/main/compressai_test.ipynb
+**直接 URL**:
+
+- シンプル版: https://colab.research.google.com/github/Uttchii/learned-image-compression/blob/main/simple_compression_demo.ipynb
+- 詳細版: https://colab.research.google.com/github/Uttchii/learned-image-compression/blob/main/compressai_test.ipynb
 
 ## 📁 ファイル構成
 
 ```
 compressai-image-compression/
-├── compressai_test.ipynb     # メインのノートブック
-├── sync.sh                   # GitHub同期スクリプト
-├── model.py                  # モデル定義
-├── main.py                   # 訓練スクリプト
-├── utils.py                  # ユーティリティ関数
-├── images/                   # 訓練結果画像
-└── README.md                # このファイル
+├── simple_compression_demo.ipynb  # 🎯 シンプルデモ（推奨）
+├── compressai_test.ipynb          # 🔬 詳細デモ
+├── sync.sh                        # GitHub同期スクリプト
+├── model.py                       # モデル定義
+├── main.py                        # 訓練スクリプト
+├── utils.py                       # ユーティリティ関数
+├── images/                        # 訓練結果画像
+└── README.md                     # このファイル
 ```
 
 ## 💻 ローカル開発ワークフロー
@@ -153,7 +161,8 @@ alias colab-open='open "https://colab.research.google.com/github/Uttchii/learned
 ### このプロジェクト
 
 - **GitHub**: https://github.com/Uttchii/learned-image-compression
-- **Google Colab**: https://colab.research.google.com/github/Uttchii/learned-image-compression/blob/main/compressai_test.ipynb
+- **🎯 Google Colab（シンプル）**: https://colab.research.google.com/github/Uttchii/learned-image-compression/blob/main/simple_compression_demo.ipynb
+- **🔬 Google Colab（詳細）**: https://colab.research.google.com/github/Uttchii/learned-image-compression/blob/main/compressai_test.ipynb
 
 ## 🚧 今後の拡張予定
 
@@ -188,7 +197,12 @@ alias colab-open='open "https://colab.research.google.com/github/Uttchii/learned
 
 ---
 
-**🎉 今すぐ試してみよう！**  
+**🎉 今すぐ試してみよう！**
+
+🎯 **シンプル版（推奨）**:  
+[Google Colab で開く](https://colab.research.google.com/github/Uttchii/learned-image-compression/blob/main/simple_compression_demo.ipynb)
+
+🔬 **詳細版**:  
 [Google Colab で開く](https://colab.research.google.com/github/Uttchii/learned-image-compression/blob/main/compressai_test.ipynb)
 
 **💡 ヒント**: Google Colab で実行する際は、ランタイムタイプを「GPU」に設定すると高速化されます！
